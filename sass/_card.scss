@@ -1,0 +1,37 @@
+.card{
+    padding: 1rem;
+    margin: 2rem;
+    height: 40rem ;
+    &-title{
+        color: map-get($colores,"title");
+        font-size: 2rem;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    .title_talle{
+        font-size: 1.2rem;
+        text-decoration: underline;
+    }
+    .title_color{
+        @extend .title_talle;
+    }
+    &-img{
+        width: 18rem;
+        padding: 1rem;
+        height: 20rem;
+    }
+    &-img-top{
+        height: 10rem;
+        width: 15rem;
+    }
+    .hotpink{
+        background-color: map-get($colores,"title");
+        padding: 1rem;
+        text-align: center;
+    }
+}
+    .card:hover{
+        background-color: rgb(216, 216, 209);
+        .card-img{
+        transform:scale(1.2);
+        transition:1s;}
+    }

@@ -1,0 +1,45 @@
+.contenedor{
+    width: 100%;
+    @include align;
+    margin-bottom: 5rem;
+    .carousel{
+        width: 80%;
+        text-align: center;
+        &-inner img{
+            height: 27rem;
+            width: 100%;
+        }
+        &_img{
+            width:100%;
+        }
+        &__title{
+            font-size: 2.4rem;
+            color: map-get($colores,"title");
+        }
+    
+    }
+    .seccion{
+        display: flex;
+        width: 80%;
+        height: auto;
+        padding: 1rem;
+        margin-bottom: 1rem;
+        border-radius: 15px;
+        background-color: map-get($colores, "title");
+        .main__img{
+            width: 40%;
+            display: inline;
+            height: 14rem;
+        }
+        .text{
+            padding: 1rem;
+            text-align: justify;
+            width: 80%;
+        }
+    }
+
+}
+h1{
+   
+    padding: 1rem;
+}

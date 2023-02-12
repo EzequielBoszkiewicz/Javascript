@@ -1,0 +1,11 @@
+.container-{
+    width: 100%;
+    text-align: center;
+    & a:hover{
+        color:map-get($colores,"title");
+    }
+    .pink{
+        color:map-get($colores,"title") ;
+        font-size: 1.8rem;
+    }
+}

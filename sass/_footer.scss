@@ -1,0 +1,20 @@
+footer{
+    color: map-get($colores,"footerCol");
+    width: 100%;
+    margin-top: 1rem;
+    padding: 1.5rem;
+    background-color:black;
+    position: fixed;
+    bottom: 0;
+    height: 6rem;
+    @include align;
+    .iconos a{
+        padding: 0.7rem;
+        text-decoration: none;
+        color: map-get($colores,"footerCol");
+        font-size: 2rem;
+    }
+}
+i:hover{
+    color:map-get($colores,"title") ;
+}
